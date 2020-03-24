@@ -68,40 +68,72 @@ header.masthead .overlay {
 
 /* Header */
 
-.jumbotron{
-    font-family: 'Fredoka One', cursive;
-    padding-top: 0;
-    margin-bottom: 0;
-    position: relative;
-    top: -47px;
-    background-color: #ad2335;
+.component-hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    opacity: 1.5;
+    overflow: hidden;
+}
+video {
+    vertical-align: middle;
+    display: inline-block;
+}
+.component-hero .video-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.component-hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.firma-ara{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.form-control{
+    font-size: 16px;
+    font-weight: 900;
+    height: 50px;
+    border-radius: 50px !important;
+    background: rgba(25,20,20,0.5);
+    border: rgba(25,20,20,0.5);
+}
+#goBtn{
+    background-color: #1ED760;
     color: #fff;
-    height: auto;
+    border-radius: 30px;
+    font-size: 3.5vh;
 }
-.man_image {
-    max-width: 518px;
-    float: right;
+input{
+    margin: 0 10px 1rem 11px;
 }
-.adjust-heading {
-    padding-top: 38px;
-}
-.icon_row {
-    margin: 27px 0 35px 35px;
-    max-width: 800px;
-}
-.icon_row {
-    margin: 27px 0 35px 35px;
-    max-width: 800px;
-}
-.icon_row {
-    margin: 27px 0 35px 35px;
-    max-width: 800px;
+.siyah-cerceve{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 .card {
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
-    max-width: 100px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    border: transparent;
+    border-radius: .25rem;
 }
+
+
+
 .pointer {
     cursor: pointer;
 }
